@@ -1,0 +1,83 @@
+/* CARRUSEL */
+.carousel-container {
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease;
+    will-change: transform;
+}
+
+.card {
+    flex: 0 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #040404;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px;
+    width: 300px;
+    border-right: 2px solid #2af0ea;
+    border-bottom: 2px solid #2af0ea;
+    border-top: solid 2px #fe2858 ;
+    border-left: solid 2px #fe2858;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-placeholder {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    background-color: rgba(31, 41, 55, 0.9);
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    z-index: 10;
+    cursor: pointer;
+    /* centrado del SVG */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+/* Ocultar botones en móviles */
+@media (max-width: 768px) {
+    .carousel-button {
+        display: none;
+    }
+    .card {
+        width: 85%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 95%;
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/carrusel.css">
+</head>
+<body>
+
+    <!-- Latest Blog Section estilo wireframe -->
+    <section class="gradient-bg py-0 md:py-10 ">
+        <div class="md:container mx-auto px-4  py-10 ">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-8 inline-block">
+                Contenido por Hacer
+                <span class="block border-b-2 border-tiktok-red w-16 mt-2"></span>
+            </h2>
+
+            <div class="carousel-container overflow-hidden relative md:pb-20">
+                <div class="carousel flex transition-transform duration-300">
+                    <!-- Tarjeta 1 -->
+                    <div class="card w-full sm:w-1/2 md:w-1/3">
+                        <div class="card-placeholder">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="72"  height="72"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-video-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" /><path d="M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" /><path d="M7 12l4 0" /><path d="M9 10l0 4" /></svg>
+                        </div>
+                        <div class="flex flex-col h-52 p-6 justify-between">
+                            <h3 class="text-base font-semibold mb-2 text-white">Crea tutoriales</h3>
+                            <p class="text-gray-400 text-sm md:text-base mb-4">
+                                Muestra paso a paso cómo usar tus productos o servicios con videos explicativos.
+                            </p>
+                            <a href="#" class="text-tiktok-red text-sm font-medium ">Ver ejemplo</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="card w-full sm:w-1/2 md:w-1/3">
+                        <div class="card-placeholder">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="72"  height="72"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bulb"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" /><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" /><path d="M9.7 17l4.6 0" /></svg>
+                        </div>
+                        <div class="flex flex-col h-52 p-6 justify-between">
+                            <h3 class="text-base font-semibold mb-2 text-white">Tips útiles</h3>
+                            <p class="text-gray-400 text-sm md:text-base mb-4">
+                                Comparte trucos prácticos relacionados con tu industria para ayudar a tus usuarios.
+                            </p>
+                            <a href="#" class="text-tiktok-red text-sm font-medium ">Ver consejos</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="card w-full sm:w-1/2 md:w-1/3">
+                        <div class="card-placeholder">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="72"  height="72"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-message-star"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 9h8" /><path d="M8 13h4.5" /><path d="M10.325 19.605l-2.325 1.395v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" /><path d="M17.8 20.817l-2.172 1.138a.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a.39 .39 0 0 1 -.567 .411l-2.172 -1.138z" /></svg>
+                        </div>
+                        <div class="flex flex-col h-52 p-6 justify-between">
+                            <h3 class="text-base font-semibold mb-2 text-white">Historias de tus clientes</h3>
+                            <p class="text-gray-400 text-sm md:text-base mb-4">
+                                Publica testimonios reales para generar confianza en nuevos usuarios.
+                            </p>
+                            <a href="#" class="text-tiktok-red text-sm font-medium ">Leer historias</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 4 -->
+                    <div class="card w-full sm:w-1/2 md:w-1/3">
+                        <div class="card-placeholder">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="72"  height="72"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-movie"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 4l0 16" /><path d="M16 4l0 16" /><path d="M4 8l4 0" /><path d="M4 16l4 0" /><path d="M4 12l16 0" /><path d="M16 8l4 0" /><path d="M16 16l4 0" /></svg>
+                        </div>
+                        <div class="flex flex-col h-52 p-6 justify-between">
+                            <h3 class="text-base font-semibold mb-2 text-white">Comparte tu proceso</h3>
+                            <p class="text-gray-400 text-sm md:text-base mb-4">
+                                Comparte el proceso de producción o cómo se vive dentro de tu negocio.
+                            </p>
+                            <a href="#" class="text-tiktok-red text-sm font-medium ">Explorar</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 5 -->
+                    <div class="card w-full sm:w-1/2 md:w-1/3">
+                        <div class="card-placeholder">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="72"  height="72"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-history"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 8l0 4l2 2" /><path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" /></svg>
+                        </div>
+                        <div class="flex flex-col h-52 p-6 justify-between">
+                            <h3 class="text-base font-semibold mb-2 text-white">Comparte tu propósito</h3>
+                            <p class="text-gray-400 text-sm md:text-base mb-4">
+                                Cuéntale al mundo cómo empezó tu negocio y qué valores lo representan.
+                            </p>
+                            <a href="#" class="text-tiktok-red text-sm font-medium ">Conoce más</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 6 -->
+                    <div class="card w-full sm:w-1/2 md:w-1/3">
+                        <div class="card-placeholder">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="72"  height="72"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-broadcast"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 19.364a9 9 0 1 0 -12.728 0" /><path d="M15.536 16.536a5 5 0 1 0 -7.072 0" /><path d="M12 13m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
+                        </div>
+                        <div class="flex flex-col h-52 p-6 justify-between">
+                            <h3 class="text-base font-semibold mb-2 text-white">Responde en tiempo real</h3>
+                            <p class="text-gray-400 text-sm md:text-base mb-4">
+                                Realiza sesiones en vivo para resolver dudas, conectar y generar comunidad.
+                            </p>
+                            <a href="#" class="text-tiktok-red text-sm font-medium ">Unirse a la próxima</a>
+                        </div>
+                    </div>
+                </div>
+                <button id="prev" class="carousel-button" aria-label="Anterior"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="#ffffff"  class="icon icon-tabler icons-tabler-filled icon-tabler-caret-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13.883 5.007l.058 -.005h.118l.058 .005l.06 .009l.052 .01l.108 .032l.067 .027l.132 .07l.09 .065l.081 .073l.083 .094l.054 .077l.054 .096l.017 .036l.027 .067l.032 .108l.01 .053l.01 .06l.004 .057l.002 .059v12c0 .852 -.986 1.297 -1.723 .783l-.084 -.076l-6 -6a1 1 0 0 1 -.083 -1.32l.083 -.094l6 -6l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01z" /></svg></button>
+                <button id="next" class="carousel-button" aria-label="Siguiente"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="#ffffff"  class="icon icon-tabler icons-tabler-filled icon-tabler-caret-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6c0 -.852 .986 -1.297 1.723 -.783l.084 .076l6 6a1 1 0 0 1 .083 1.32l-.083 .094l-6 6l-.094 .083l-.077 .054l-.096 .054l-.036 .017l-.067 .027l-.108 .032l-.053 .01l-.06 .01l-.057 .004l-.059 .002l-.059 -.002l-.058 -.005l-.06 -.009l-.052 -.01l-.108 -.032l-.067 -.027l-.132 -.07l-.09 -.065l-.081 -.073l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057l-.002 -12.059z" /></svg></button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/carrusel.js"></script>
+    
+</body>
+</html>
