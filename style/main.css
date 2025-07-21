@@ -91,6 +91,12 @@ html {
     transform: rotate(180deg);
 }
 
+.accordion-text-tiktok-cyan{
+    background-color: #fe2858;
+    border-right: #fff solid 4px;
+    border-bottom: #fff solid 4px;
+}
+
 body {
     font-family: "Open Sans", sans-serif;}
 
