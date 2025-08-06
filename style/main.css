@@ -58,6 +58,14 @@ html {
     background: linear-gradient(180deg, #040404 0%, #397684 100%);
 }
 
+.gradient-bg-reverse {
+    background: linear-gradient(0deg, #040404 0%, #397684 100%);
+}
+
+.gradient-bg-red {
+    background: linear-gradient(180deg, #040404 0%, #fe2858 100%);
+}
+
 .feature-icon {
     /* background: linear-gradient(135deg, #fe2858 0%, #de8c9d 100%); */
     background-color: #040404;
